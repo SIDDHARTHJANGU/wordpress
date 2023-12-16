@@ -1,13 +1,81 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "Gilroylight";
+  src: url("./assets/font/gilroy/Gilroy-Light.ttf");
+}
+@font-face {
+  font-family: "GilroyMedium";
+  src: url("./assets/font/gilroy/Gilroy-Medium.ttf");
+}
+@font-face {
+  font-family: "GilroyRegular";
+  src: url("./assets/font/gilroy/Gilroy-Regular.ttf");
+}
+@font-face {
+  font-family: "GilroySemiBold";
+  src: url("./assets/font/gilroy/Gilroy-SemiBold.ttf");
+}
+@font-face {
+  font-family: "KonexyPersonal";
+  src: url("./assets/font/KonexyPersonalUse\ \(1\).otf");
+}
+.ff_KonexyPersonal {
+  font-family: "KonexyPersonal";
+}
+.ff_Gilroylight {
+  font-family: "Gilroylight";
+}
+.ff_GilroyMedium {
+  font-family: "GilroyMedium";
+}
+.ff_GilroyRegular {
+  font-family: "GilroyRegular";
+}
+.ff_GilroySemiBold {
+  font-family: "GilroySemiBold";
+}
+.ff_inter {
+  font-family: "Inter";
+}
+.youhave {
+  background: linear-gradient(91deg, #5f21e9 60.06%, #fa00ff 103.73%);
+  box-shadow: 0px 20px 50px 0px rgba(39, 0, 124, 0.5);
+}
+.slick-track {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+.btn_shadow {
+  box-shadow: 0px 4px 20px 0px rgba(96, 34, 234, 0.2);
+}
+.ellipse-bg {
+  background-image: linear-gradient(#fa00ff 50%, #6022ea 50%) !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media (min-width: 768px) {
+  @keyframes grow-and-shrink {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .hero_img {
+    animation: grow-and-shrink 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+}
+@media (min-width: 1024px) {
+  .max-w-250 {
+    max-width: 250px !important;
+  }
 }

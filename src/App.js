@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import FeaturedOn from "./Components/FeaturedOn";
+import Integer from "./Components/Integer";
+import LongTerm from "./Components/LongTerm";
+import Myfooter from "./Components/Myfooter";
+import { Myheader } from "./Components/Myheader";
+import Project from "./Components/Project";
+import TeamFull from "./Components/TeamFull";
+import TellUs from "./Components/TellUs";
+import VipeStudio from "./Components/VipeStudio";
+import Viptor from "./Components/Viptor";
+import BackToTop from "./Components/BackToTop";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=" overflow-hidden">
+      <BackToTop />
+      <Myheader />
+      <TellUs />
+      <FeaturedOn />
+      <Integer />
+      <VipeStudio />
+      <LongTerm />
+      <Project />
+      <TeamFull />
+      <Viptor />
+      <Myfooter />
     </div>
   );
 }
