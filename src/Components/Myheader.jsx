@@ -4,7 +4,7 @@ import menu from "../assets/img/menu.svg";
 import close from "../assets/img/close.svg";
 import Mysvgs, { Dropdown, English } from "./Mysvgs";
 import heroimg from "../assets/img/hero_img.webp";
-import star from "../assets/img/blur.webp";
+import star from "../assets/img/blurone.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import line from "../assets/img/Line 21.png";
@@ -190,7 +190,7 @@ export const Myheader = () => {
           <div className=" flex flex-wrap items-center justify-between  ">
             <div
               className=" xl:w-[48%] w-[100%] order-2 mt-10 "
-              data-aos="fade-down-right"
+              data-aos="fade-right"
             >
               <div className=" flex items-center gap-3">
                 <div className=" xl:h-[200px] h-[110px] w-[10px] bg-[#6022ea]"></div>
@@ -228,7 +228,7 @@ export const Myheader = () => {
             </div>
             <div
               className=" xl:w-[50%] w-[100%]  relative order-1 xl:order-2  "
-              data-aos="fade-down-left"
+              data-aos="fade-left"
             >
               <div>
                 <img
@@ -238,7 +238,7 @@ export const Myheader = () => {
                 />
               </div>
               <img
-                className=" max-xl:w-full 2xl:max-w-[761px] "
+                className=" max-xl:w-full 2xl:max-w-[720px]  "
                 src={heroimg}
                 alt="heroimg"
               />

@@ -13,7 +13,7 @@ const Integer = () => {
         <div className=" pt-[54px] flex items-center  justify-center flex-wrap gap-[32px]">
           <div
             className="w-[418px] border border-[#e5e5e5] rounded-[16px] px-9 pt-14 pb-9  flex flex-col text-center  items-center cursor-pointer  hover:border-transparent duration-700 hover:shadow-3xl "
-            data-aos="fade-down-right"
+            data-aos="fade-right"
           >
             <div>
               <Wordpress />
@@ -51,7 +51,7 @@ const Integer = () => {
           </div>
           <div
             className="w-[418px] border border-[#e5e5e5] rounded-[16px] px-9 pt-14 pb-9  flex flex-col text-center  items-center cursor-pointer  hover:border-transparent duration-700  hover:shadow-3xl"
-            data-aos="fade-down-left"
+            data-aos="fade-left"
           >
             <div>
               <Support />

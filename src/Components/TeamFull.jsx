@@ -6,7 +6,7 @@ const TeamFull = () => {
     <div className=" bg-[#f6f6f6] pt-[35px]">
       <div className=" container mx-auto max-w-[1344px] px-3">
         <div className=" flex items-center justify-between flex-wrap">
-          <div data-aos="fade-down-right">
+          <div data-aos="fade-right">
             <h2 className=" font-normal lg:text-[48px] text-[29px] text-black ff_KonexyPersonal leading-[normal]">
               Team Full of Stars{" "}
             </h2>
@@ -28,7 +28,7 @@ const TeamFull = () => {
               Explore
             </button>
           </div>
-          <div data-aos="fade-down-left">
+          <div data-aos="fade-left">
             <img
               className=" w-[100%] translate-y-[15%]  cursor-pointer"
               src={manimg}

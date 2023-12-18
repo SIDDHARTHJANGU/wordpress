@@ -8,7 +8,7 @@ const Viptor = () => {
       <div className="container mx-auto px-3 max-w-[1344px] w-full items-center flex lg:justify-center  xl:gap-12 flex-wrap lg:pb-[75px] pb-9">
         <div
           className="w-full xl:w-auto  flex justify-center"
-          data-aos="fade-down-right"
+          data-aos="fade-right"
         >
           <img
             src={vip}
@@ -16,7 +16,7 @@ const Viptor = () => {
             className="w-full md:w-[50%] xl:w-full xl:h-[494.437px] hero_img"
           />
         </div>
-        <div className="flex flex-col mt-10 lg:mt-0" data-aos="fade-down-left">
+        <div className="flex flex-col mt-10 lg:mt-0" data-aos="fade-left">
           <p className=" font-normal text-[16px] ff_GilroyRegular text-[#868687]">
             HAVE YOU SEEN OUR MASCOT?
           </p>
@@ -84,7 +84,7 @@ const Viptor = () => {
         <div className="gradient-bg rounded-[17px] flex items-center flex-wrap youhave justify-between px-[43px] pt-[25px] pb-[37px] ">
           <div
             className="w-full sm:w-auto flex flex-col mb-6 md:mb-0"
-            data-aos="fade-down-right"
+            data-aos="fade-right"
           >
             <h2 className="lg:text-[48px] text-[40px] ff_KonexyPersonal font-normal text-white leading-[1.17] mb-[9px]">
               Have you
@@ -94,7 +94,7 @@ const Viptor = () => {
               <span className=" lg:block">WordPress?</span>
             </p>
           </div>
-          <div className="" data-aos="fade-down-left">
+          <div className="" data-aos="fade-left">
             <button className="ff_inter text-[16px] leading-[150%] font-semibold py-[14.33px] px-[38.2px] bg-white text-[#6022EA] rounded-[137.28px] h-[57.65px] w-[191.4px]">
               Check It Out
             </button>

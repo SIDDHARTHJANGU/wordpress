@@ -9,7 +9,7 @@ const VipeStudio = () => {
     <div className=" bg-black lg:pt-[81px] pt-10 lg:pb-[81px] pb-10 z-[1] relative">
       <div className=" container mx-auto max-w-[1344px] px-3 relative">
         <div className=" flex xl:justify-between flex-wrap lg:pb-[170px] pb-20 ">
-          <div className=" w-full xl:w-[533px] " data-aos="fade-down-right">
+          <div className=" w-full xl:w-[533px] " data-aos="fade-right">
             <h2 className=" lg:text-[40px] text-[30px] font-normal text-white ff_KonexyPersonal ">
               All Vipe Studio <span className=" xl:block"> WordPress </span>
               services include:{" "}
@@ -61,7 +61,7 @@ const VipeStudio = () => {
           </div>
           <div
             className=" sm:w-[50%] xl:w-[25%]  mt-10  lg:mt-0 "
-            data-aos="fade-down-left"
+            data-aos="fade-left"
           >
             <p className=" text-[24px] font-semibold  ff_GilroySemiBold text-white">
               By Services
@@ -111,7 +111,7 @@ const VipeStudio = () => {
           <div className="ellipse absolute w-[317px] h-[272.34px] ellipse-bg blur-[137px] top-[60%] start-0 z-[-1]"></div>
           <div className="ellipse absolute w-[317px] h-[272.34px] ellipse-bg blur-[137px] top-[60%] end-0 z-[-1]"></div>
           <div className=" flex flex-wrap justify-between  ">
-            <div className="w-full xl:w-[324px] " data-aos="fade-down-right">
+            <div className="w-full xl:w-[324px] " data-aos="fade-right">
               <p className=" text-white lg:text-[35px] text-[30px] font-normal ff_KonexyPersonal ">
                 Not Sure <span className=" xl:block"> which service</span>{" "}
                 <span className=" xl:block"> you need</span>
@@ -156,7 +156,7 @@ const VipeStudio = () => {
             </div>
             <div
               className=" w-full sm:w-[50%] xl:w-auto  flex xl:justify-center mt-10 lg:mt-0"
-              data-aos="fade-down-left"
+              data-aos="fade-left"
             >
               <img src={girlimg} alt="img" />
             </div>

@@ -6,10 +6,10 @@ const Project = () => {
     <div className=" lg:pt-[67px] pt-8 lg:pb-[100px] pb-10">
       <div className=" container  mx-auto max-w-[1344px] px-3">
         <div className=" flex flex-wrap items-center xl:justify-between justify-center ">
-          <div className=" xl:w-[45%]" data-aos="fade-down-right">
+          <div className=" xl:w-[45%]" data-aos="fade-right">
             <img className=" xl:max-h-[538px] w-full" src={agile} alt="img" />
           </div>
-          <div className="xl:w-[50%] mt-10 lg:mt-0" data-aos="fade-down-left">
+          <div className="xl:w-[50%] mt-10 lg:mt-0" data-aos="fade-left">
             <h2 className=" font-normal lg:text-[48px] text-[30px] text-black ff_KonexyPersonal leading-[normal]">
               <span className=" text-[#6022ea]">Agile WordPress</span>{" "}
               Development Project management
