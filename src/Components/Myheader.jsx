@@ -7,6 +7,7 @@ import heroimg from "../assets/img/hero_img.webp";
 import star from "../assets/img/blur.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import line from "../assets/img/Line 21.png";
 export const Myheader = () => {
   useEffect(() => {
     AOS.init({
@@ -133,8 +134,8 @@ export const Myheader = () => {
                 </li>
               </ul>
             </div>
-            <ul className="md:flex gap-9 items-center  hidden    ">
-              <li>
+            <ul className="md:flex items-center  hidden    ">
+              <li className=" me-[36px]">
                 <a
                   href="number"
                   className=" text-white text-[16px] font-normalff_GilroyRegular"
@@ -142,15 +143,16 @@ export const Myheader = () => {
                   1 888 266-6917 (eu?)
                 </a>
               </li>
-              <button className=" text-white text-[18px] font-normalff_GilroyRegular py-[10px] px-[24px]  bg-[#6022EA] hover:bg-white hover:text-black duration-300 rounded-[80px] btn_shadow">
+              <button className=" text-white text-[18px] me-[10px] font-semibold ff_GilroySemiBold py-[10px] px-[24px]  bg-[#6022EA] hover:bg-white hover:text-black duration-300 rounded-[80px] btn_shadow">
                 Contact Us
               </button>
               <li className="relative inline-block group">
                 <a
                   href="#Eng"
                   aria-label="WordPresssolutionnav"
-                  className="flex gap-1 leading-6 text-white text-[16px] ff_GilroyRegular font-normal mb-0"
+                  className="flex gap-1 leading-6 items-center  text-white text-[16px] ff_GilroyRegular font-normal mb-0"
                 >
+                  <img className=" me-[10px]" src={line} alt="img" />
                   <English />
                   Eng
                   <Dropdown />
